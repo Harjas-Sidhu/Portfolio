@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+header{
+    background: url("../images/header-background.png");
+    background-size: cover;
+    padding: 30px 30px 6px 30px;
+}
+#header-image{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 30px 640px 6px 640px;
+}
+#header-ulist{
+    padding: 9px 20px;
+    background-color: #39434F;
+    margin: 0px 0px;
+    position: -webkit-sticky;
+}
+.header-ul-elements{
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 0px 25px;
+    font-size: 23px;
+}
+.header-menu-link{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 75px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+}
+.header-ul-elements a:hover{
+    background-color: #2BC56D;
+}
+body{
+    background-color: #181F2A;
+}
+img{
+    display: block;
+    height: 200px;
+    width: 340px;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+.article-card{
+    background-color: #39434f;
+    width: 380px;
+    height: 530px;
+    text-align: center;
+    text-overflow: clip;
+    margin: 50px 5px 100px 80px;
+    padding-top: 20px;
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #111111;
+    position: static;
+}
+.article-card:hover{
+    margin: 45px 0px 95px 75px;
+    border: 5px inset #2BC56D;
+}
+.article-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+h1{
+    color: #90C3EA;
+    max-width: 300px;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+p{
+    margin: 0px 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer{
+    background-color: #39434F;
+    margin-top: 40px;
+    padding: 9px 0px 9px 0px;
+    position: static;
+    bottom: 0;
+}
+#footer-heading{
+    color: #90C3EA;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    padding: 5px 20px 0px 20px;
+    display: inline;
+    text-shadow: 15px 10px 6px #111111;
+}
+#footer-icons-div{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    display: inline;
+}
+.footer-image{
+    height: 30px;
+    width: 30px;
+    margin: 10px 30px 5px 30px;
+}
+#active{
+    background-color: #2BC56D;
+}

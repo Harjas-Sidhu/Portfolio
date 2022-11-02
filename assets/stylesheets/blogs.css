@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+header{
+    background: url("../images/header-background.png");
+    background-size: cover;
+    padding: 30px 30px 6px 30px;
+}
+#header-image{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 30px 640px 6px 640px;
+}
+#header-ulist{
+    padding: 9px 20px;
+    background-color: #39434F;
+    margin: 0px 0px;
+    position: -webkit-sticky;
+}
+.header-ul-elements{
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding: 0px 25px;
+    font-size: 23px;
+}
+.header-menu-link{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 75px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+}
+.header-ul-elements a:hover{
+    background-color: #2BC56D;
+}
+body{
+    background-color: #181F2A;
+}
+h1{
+    font-size: 60px;
+    color: #90C3EA;
+    margin: 100px 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    background-color: #39434F;
+    margin-top: 308px;
+    padding: 9px 0px 9px 0px;
+    position: static;
+    bottom: 0;
+}
+#footer-heading{
+    color: #90C3EA;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    padding: 5px 20px 0px 60px;
+    display: inline;
+    text-shadow: 15px 10px 6px #111111;
+}
+#footer-icons-div{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    display: inline;
+}
+.footer-image{
+    height: 30px;
+    width: 30px;
+    margin: 0px 30px;
+}
+#active{
+    background-color: #2BC56D;
+}
