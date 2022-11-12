@@ -51,7 +51,7 @@ img{
 .article-card{
     background-color: #39434f;
     width: 380px;
-    height: 530px;
+    height: 220px;
     text-align: center;
     text-overflow: clip;
     margin: 50px 5px 100px 80px;
@@ -60,10 +60,18 @@ img{
     border-radius: 10%;
     box-shadow: 10px 10px 5px #111111;
     position: static;
+    transition: 0.3s ease-in-out;
+}
+.art{
+    opacity: 0;
+}
+.article-card:hover .art{
+    opacity: 1;
 }
 .article-card:hover{
     margin: 45px 0px 95px 75px;
     border: 5px inset #2BC56D;
+    height: 530px;
 }
 .article-link{
     color: whitesmoke;
